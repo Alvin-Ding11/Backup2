@@ -11,17 +11,17 @@ function calc () {
   int2 = document.getElementById('in2').value
   int2 = parseInt(int2)
 
-    if (int1 < 0 || int2 < 0) {
-      for (count = 0; count > int1; count++) {
-        ans = ans + int2
-      }
+  if (int1 < 0 || int2 < 0) {
+    for (count = 0; count > int1; count++) {
+      ans = ans + int2
+    }
   } else if (int1 < 0 && int2 < 0) {
-      for (count = 0; count < int1; count++) {
-        ans = ans + int2
+    for (count = 0; count < int1; count++) {
+      ans = ans + int2
     }
   } else {
-      for (count = 0; count < int1; count++) {
-        ans = ans + int2
+    for (count = 0; count < int1; count++) {
+      ans = ans + int2
     }
   }
 
